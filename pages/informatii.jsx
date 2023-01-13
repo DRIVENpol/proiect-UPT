@@ -37,7 +37,7 @@ const informatii = () => {
     <Center>
     <VStack>
     <Text as='b' fontSize={'4xl'}>Informatii Personale</Text>
-    <Text fontSize={'xl'}>- Nascut in Timisoara, Romania</Text>
+    <Text fontSize={'xl'}>- Nascut in Timisoara, Romania;</Text>
     <Text fontSize={'xl'}>- Fost jucator de tennis de camp</Text>
     <Text fontSize={'xl'}>- Pasionat de blockchain & Web3</Text>
     <Text fontSize={'xl'}>- Lucrez activ in domeniul Web3: consultanta & securitate in cadrul afacerii mele <Text as='u'><Link href='https://www.drivenecosystem.com/' target='_blank'>DRIVENlabs Inc.</Link></Text></Text>
