@@ -75,21 +75,21 @@ const cariera = () => {
     <List spacing={3}>
   <ListItem>
     ❇️
-    DRIVEN ecosystem: <Link href='https://www.drivenecosystem.com/'><Text as='u'>Website</Text></Link>
+    DRIVEN ecosystem: <Link href='https://www.drivenecosystem.com/' target={'_blank'}><Text as='u'>Website</Text></Link>
   </ListItem>
   <ListItem>
     ❇️
-    Rev3al Dapp: <Link href='https://defi.rev3al.com/'><Text as='u'>Website</Text></Link>
+    Rev3al Dapp: <Link href='https://defi.rev3al.com/' target={'_blank'}><Text as='u'>Website</Text></Link>
   </ListItem>
   <ListItem>
     ❇️
-        Covalent API Hackathon: <Link href='https://github.com/DRIVENpol/Nft-Launchpad-Covalent-Api'><Text as='u'>Website</Text></Link>
+        Covalent API Hackathon: <Link href='https://github.com/DRIVENpol/Nft-Launchpad-Covalent-Api' target={'_blank'}><Text as='u'>Website</Text></Link>
   </ListItem>
   {/* You can also use custom icons from react-icons */}
   <ListItem>
     {/* <ListIcon as={MdSettings} color='green.500' /> */}
     ❇️
-           Nft Minter: <Link href='https://www.cyberknights.finance/'><Text as='u'>Website</Text></Link>
+           Nft Minter: <Link href='https://www.cyberknights.finance/' target={'_blank'}><Text as='u'>Website</Text></Link>
 
   </ListItem>
 </List>
