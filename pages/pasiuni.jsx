@@ -1,4 +1,4 @@
-import { Box, Center, Image, VStack, Text, HStack } from '@chakra-ui/react'
+import { Box, Center, Image, VStack, Text, HStack, Button } from '@chakra-ui/react'
 import Link from 'next/link'
 import React from 'react'
 
@@ -91,6 +91,7 @@ const pasiuni = () => {
         Tot ce am invatat a fost pe cont propriu, din documentatii (Ethereum Yellowpaper, Whitepaper), cursuri de Solididy, Hackathons & Bug Bounties. In viitor (dupa ce termin cu licenta),
         planuiesc sa fac si un master pe blockchain.
     </Text>
+     <Button colorScheme='messenger'><Link href='/cariera'>Vezi Website</Link></Button>
     </VStack>
     </Center>
     </Box>
