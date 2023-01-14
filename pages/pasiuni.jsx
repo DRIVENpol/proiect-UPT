@@ -72,7 +72,7 @@ const pasiuni = () => {
     <Box borderRadius='xl' bgColor={'white'} w='100%' h={'100%'} p='10'>
     <Center>
     <VStack>
-    <Text as='b' fontSize={'4xl'}>💻 Blockchanin & Web3</Text>
+    <Text as='b' fontSize={'4xl'}><Link href='/cariera'>💻 Blockchanin & Web3</Link></Text>
     <Text fontSize={'2xl'} as='u'>Istoric</Text>
     <Text fontSize={'xl'} align='center'>
         Proiectul meu de blockchain a inceput dintr-o joaca, in timp ce faceam marketing si am hotarat sa imi creez propria mea moneda
