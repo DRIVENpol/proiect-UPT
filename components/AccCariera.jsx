@@ -10,7 +10,7 @@ import { Box, Center, Image, VStack, Text, HStack, Button,
 const AccCariera = () => {
   return (
    <>
-   <Accordion width={'100%'}>
+   <Accordion width={'100%'} defaultIndex={[0]}>
   <AccordionItem width={'100%'}>
     <h2>
       <AccordionButton>

@@ -1,5 +1,13 @@
 import { Box, Center, Image, VStack, Text, HStack,
+  List,
+  ListItem,
+  ListIcon,
+  OrderedList,
+  UnorderedList,
  } from '@chakra-ui/react'
+
+import { MdSettings,  MdCheckCircle, StarIcon} from '@chakra-ui/icons'
+
 import Link from 'next/link'
 import React from 'react'
 
@@ -56,6 +64,35 @@ const cariera = () => {
     Ultimele doua proiecte realizate cu succes:
     </Text>
     <AccCariera />
+    </VStack>
+    </Center>
+    </Box>
+
+    <Box borderRadius='xl' bgColor={'white'} w='100%' h={'100%'} p='10'>
+    <Center>
+    <VStack>
+    <Text as='b' fontSize={'4xl'}>🤓 Interfete grafice create</Text>
+    <List spacing={3}>
+  <ListItem>
+    ❇️
+    DRIVEN ecosystem: <Link href='https://www.drivenecosystem.com/'><Text as='u'>Website</Text></Link>
+  </ListItem>
+  <ListItem>
+    ❇️
+    Rev3al Dapp: <Link href='https://defi.rev3al.com/'><Text as='u'>Website</Text></Link>
+  </ListItem>
+  <ListItem>
+    ❇️
+        Covalent API Hackathon: <Link href='https://github.com/DRIVENpol/Nft-Launchpad-Covalent-Api'><Text as='u'>Website</Text></Link>
+  </ListItem>
+  {/* You can also use custom icons from react-icons */}
+  <ListItem>
+    {/* <ListIcon as={MdSettings} color='green.500' /> */}
+    ❇️
+           Nft Minter: <Link href='https://www.cyberknights.finance/'><Text as='u'>Website</Text></Link>
+
+  </ListItem>
+</List>
     </VStack>
     </Center>
     </Box>
