@@ -11,10 +11,10 @@ const AccCariera = () => {
   return (
    <>
    <Accordion width={'100%'}>
-  <AccordionItem>
+  <AccordionItem width={'100%'}>
     <h2>
       <AccordionButton>
-        <Box as="span" flex='1' textAlign='left'>
+        <Box as="span" flex='1' textAlign='left' width={'10px'}>
          <Text as='b'>Rev3al</Text>
         </Box>
         <AccordionIcon />
