@@ -91,7 +91,7 @@ const pasiuni = () => {
         Tot ce am invatat a fost pe cont propriu, din documentatii (Ethereum Yellowpaper, Whitepaper), cursuri de Solididy, Hackathons & Bug Bounties. In viitor (dupa ce termin cu licenta),
         planuiesc sa fac si un master pe blockchain.
     </Text>
-     <Button colorScheme='messenger'><Link href='/cariera'>Vezi Website</Link></Button>
+     <Button colorScheme='messenger'><Link href='/cariera'>Mergi la cariera</Link></Button>
     </VStack>
     </Center>
     </Box>
