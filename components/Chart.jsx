@@ -236,7 +236,7 @@ const Chart = () => {
     <Center>
     <VStack mb='10px'> 
     <Text as='b' color='white' fontSize="4xl">Pret Wrapped BNB(wBnb): ${projectDetails.price} USD</Text>
-    <HStack><Text color='white' fontSize="xl">Date preluate de pe </Text><Text as={'u'} color='white'><Link href='https://coinmarketcap.com/currencies/wbnb/' target='_blank'>CoinMarketCap</Link></Text></HStack>
+    <HStack><Text color='white' fontSize="xl">Date preluate de pe </Text><Text as={'u'} color='white'><Link href='https://www.coingecko.com/ro/coins/bnb' target='_blank'>CoinGeko</Link></Text></HStack>
     </VStack>
     </Center>
     <Center>
